@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="bg-orange-300 w-full flex justify-center">
+      <div
+        class="flex text-orange-900 justify-between h-10 items-center w-10/12"
+      >
+        <div class="font-semibold">
+          <a href="">logo</a>
+        </div>
+        <div>
+          <ul class="flex font-semibold max-md:hidden">
+            <li class="mr-4"><a href="#home">Home</a></li>
+            <li class="mr-4"><a href="#about">About</a></li>
+            <li class="mr-4"><a href="#menu">Menu</a></li>
+            <li class="mr-4"><a href="#product">Product</a></li>
+            <li class="mr-4"><a href="#review">Review</a></li>
+            <li class="mr-4"><a href="#contact">Contact</a></li>
+            <li class="mr-4"><a href="#blogs">Blogs</a></li>
+            <li class="mr-4 cursor-pointer">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+            <li class="mr-4 cursor-pointer">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section
+      id="home"
+      class="bg-[url('./background.jpg')] h-[100vh] w-full bg-cover bg-no-repeat flex flex-col justify-center"
+    >
+      <div
+        class="w-[600px] h-auto ml-4 bg-orange-300 rounded-xl max-lg:w-[400px]"
+      >
+        <h2 class="text-5xl font-bold font-serif text-orange-900 m-4 max-lg:text-4xl">
+          Sip, Savor, & Spark Your Day!
+        </h2>
+        <p class="text-orange-900 m-4 block">
+          Crafting rich brews and cozy vibes. A haven for coffee aficionados.
+          Indulge in perfect cups and delightful pastries at "BREWS & BLUEPRINTS
+          CAFE"
+        </p>
+        <button
+          class="block rounded-md m-4 w-32 h-9 bg-orange-900 text-orange-300 p-1 text-xl font-[700]"
+          type="button"
+        >
+          Get It Now !
+        </button>
+      </div>
+    </section>
+
+    <section id="about" class="bg-orange-900 h-auto pb-6">
+      <h2 class="text-3xl font-bold text-orange-300 text-center mb-2">
+        About Us
+      </h2>
+
+      <div
+        class="flex max-lg:flex-col w-11/12 mx-auto  bg-orange-300 h-5/6 border-4 rounded-md border-white border-solid"
+      >
+        <img class="max-lg:hidden w-6/12  object-cover overflow-hidden" src="./about.jpg" alt="" />
+        <div class="max-lg:w-full w-6/12 pl-2  flex flex-col my-auto ">
+          <h2 class="text-5xl font-bold mb-2 text-orange-900 max-lg:text-4xl">
+            What Makes Our Coffee Special?
+          </h2>
+          <p class="text-xl mb-2  leading-relaxed text-orange-900 max-lg:text-xl">
+            Our coffee's distinction lies in our careful sourcing of premium
+            beans from sustainable farms, resulting in a perfectly balanced cup.
+            Meticulously roasted, it delivers a unique taste and freshness,
+            setting us apart among coffee enthusiasts.
+          </p>
+          <button
+            class="block rounded-md w-32 h-9 mb-5  bg-orange-900 text-orange-300 font-bold text-base"
+            type="button"
+          >
+            Learn More...
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="bg-orange-300 h-[100vh]">
+
+    </section>
+  </body>
+</html>
