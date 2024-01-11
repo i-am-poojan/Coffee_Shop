@@ -22,7 +22,7 @@
           <a href="">logo</a>
         </div>
         <div>
-          <ul class="flex font-semibold max-md:hidden">
+          <ul class="flex font-bold max-md:hidden">
             <li class="mr-4"><a href="#home">Home</a></li>
             <li class="mr-4"><a href="#about">About</a></li>
             <li class="mr-4"><a href="#menu">Menu</a></li>
@@ -47,7 +47,9 @@
       <div
         class="w-[600px] h-auto ml-4 bg-orange-300 rounded-xl max-lg:w-[400px]"
       >
-        <h2 class="text-5xl font-bold font-serif text-orange-900 m-4 max-lg:text-4xl">
+        <h2
+          class="text-5xl font-bold font-serif text-orange-900 m-4 max-lg:text-4xl"
+        >
           Sip, Savor, & Spark Your Day!
         </h2>
         <p class="text-orange-900 m-4 block">
@@ -70,21 +72,27 @@
       </h2>
 
       <div
-        class="flex max-lg:flex-col w-11/12 mx-auto  bg-orange-300 h-5/6 border-4 rounded-md border-white border-solid"
+        class="flex max-lg:flex-col w-11/12 mx-auto bg-orange-300 h-5/6 border-4 rounded-md border-white border-solid"
       >
-        <img class="max-lg:hidden w-6/12  object-cover overflow-hidden" src="./about.jpg" alt="" />
-        <div class="max-lg:w-full w-6/12 pl-2  flex flex-col my-auto ">
+        <img
+          class="max-lg:hidden w-6/12 object-cover overflow-hidden"
+          src="./about.jpg"
+          alt=""
+        />
+        <div class="max-lg:w-full w-6/12 pl-2 flex flex-col my-auto">
           <h2 class="text-5xl font-bold mb-2 text-orange-900 max-lg:text-4xl">
             What Makes Our Coffee Special?
           </h2>
-          <p class="text-xl mb-2  leading-relaxed text-orange-900 max-lg:text-xl">
+          <p
+            class="text-xl mb-2 leading-relaxed text-orange-900 max-lg:text-xl"
+          >
             Our coffee's distinction lies in our careful sourcing of premium
             beans from sustainable farms, resulting in a perfectly balanced cup.
             Meticulously roasted, it delivers a unique taste and freshness,
             setting us apart among coffee enthusiasts.
           </p>
           <button
-            class="block rounded-md w-32 h-9 mb-5  bg-orange-900 text-orange-300 font-bold text-base"
+            class="block rounded-md w-32 h-9 mb-5 bg-orange-900 text-orange-300 font-bold text-base"
             type="button"
           >
             Learn More...
@@ -93,8 +101,132 @@
       </div>
     </section>
 
-    <section id="menu" class="bg-orange-300 h-[100vh]">
+    <section id="menu" class="bg-orange-300 h-auto">
+      <h2 class="text-3xl font-bold text-orange-900 text-center mb-2">Menu</h2>
+      <div
+        class="grid grid-cols-3 grid-rows-2 w-11/12 mx-auto rounded-2xl bg-orange-900 border-4 border-solid border-white justify-between"
+      >
+        <div
+          class="w-auto h-auto  row-start-1 row-end-2 col-start-1 col-end-2 rounded-2xl bg-orange-300 m-8"
+        >
+          <div class="flex flex-col text-center m-2">
+            <img
+              class="w-[250px] h-[250px] rounded-full mx-auto border-2 border-orange-900 border-solid overflow-hidden object-cover"
+              src="./menu-1.jpg"
+              alt=""
+            />
+            <h3 class="text-3xl font-bold text-orange-900 ">Americano Coffee</h3>
+            <h4 class="text-xl font-medium text-orange-900">$15.99<span class="text-sm line-through pl-2">$20.99</span></h4>
+            <button
+              class="block rounded-md mx-auto w-32 h-9 bg-orange-900 text-orange-300 p-1 text-xl font-[700]"
+              type="button"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
 
+        <div
+          class="w-auto h-auto row-start-1 row-end-2 col-start-2 col-end-3 rounded-2xl bg-orange-300 m-8"
+        >
+          <div class="flex flex-col text-center m-2">
+            <img
+              class="w-[250px] h-[250px] rounded-full mx-auto border-2 border-orange-900 border-solid overflow-hidden object-cover"
+              src="./menu-2.jpg"
+              alt=""
+            />
+            <h3 class="text-3xl font-bold text-orange-900 ">Affogato Coffee</h3>
+            <h4 class="text-xl font-medium text-orange-900">$15.99<span class="text-sm line-through pl-2">$20.99</span></h4>
+            <button
+              class="block rounded-md mx-auto w-32 h-9 bg-orange-900 text-orange-300 p-1 text-xl font-[700]"
+              type="button"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="w-auto h-auto row-start-1 row-end-2 col-start-3 col-end-4 rounded-2xl bg-orange-300 m-8"
+        >
+          <div class="flex flex-col text-center m-2">
+            <img
+              class="w-[250px] h-[250px] rounded-full mx-auto border-2 border-orange-900 border-solid overflow-hidden object-cover"
+              src="./menu-3.jpg"
+              alt=""
+            />
+            <h3 class="text-3xl font-bold text-orange-900 ">Galao Coffee</h3>
+            <h4 class="text-xl font-medium text-orange-900">$15.99<span class="text-sm line-through pl-2">$20.99</span></h4>
+            <button
+              class="block rounded-md mx-auto w-32 h-9 bg-orange-900 text-orange-300 p-1 text-xl font-[700]"
+              type="button"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div
+        class="w-auto h-auto row-start-2 row-end-3 col-start-1 col-end-2 rounded-2xl bg-orange-300 m-8"
+      >
+        <div class="flex flex-col text-center m-2">
+          <img
+            class="w-[250px] h-[250px] rounded-full mx-auto border-2 border-orange-900 border-solid overflow-hidden object-cover"
+            src="./menu-4.jpg"
+            alt=""
+          />
+          <h3 class="text-3xl font-bold text-orange-900 ">Lungo Coffee</h3>
+          <h4 class="text-xl font-medium text-orange-900">$15.99<span class="text-sm line-through pl-2">$20.99</span></h4>
+          <button
+            class="block rounded-md mx-auto w-32 h-9 bg-orange-900 text-orange-300 p-1 text-xl font-[700]"
+            type="button"
+          >
+            Add to Cart
+          </button>
+        </div>
+      </div>
+      <div
+          class="w-auto h-auto row-start-2 row-end-3 col-start-2 col-end-3 rounded-2xl bg-orange-300 m-8"
+        >
+          <div class="flex flex-col text-center m-2">
+            <img
+              class="w-[250px] h-[250px] rounded-full mx-auto border-2 border-orange-900 border-solid overflow-hidden object-cover"
+              src="./menu-5.jpg"
+              alt=""
+            />
+            <h3 class="text-3xl font-bold text-orange-900 ">KitKat Shake</h3>
+            <h4 class="text-xl font-medium text-orange-900">$15.99<span class="text-sm line-through pl-2">$20.99</span></h4>
+            <button
+              class="block rounded-md mx-auto w-32 h-9 bg-orange-900 text-orange-300 p-1 text-xl font-[700]"
+              type="button"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-auto h-auto row-start-2 row-end-3 col-start-3 col-end-4 rounded-2xl bg-orange-300 m-8"
+        >
+          <div class="flex flex-col text-center m-2">
+            <img
+              class="w-[250px] h-[250px] rounded-full mx-auto border-2 border-orange-900 border-solid overflow-hidden object-cover"
+              src="./menu-6.jpg"
+              alt=""
+            />
+            <h3 class="text-3xl font-bold text-orange-900 ">Oreo Shake</h3>
+            <h4 class="text-xl font-medium text-orange-900">$15.99<span class="text-sm line-through pl-2">$20.99</span></h4>
+            <button
+              class="block rounded-md mx-auto w-32 h-9 bg-orange-900 text-orange-300 p-1 text-xl font-[700]"
+              type="button"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+      
+      </div>
+
+      
     </section>
   </body>
 </html>
